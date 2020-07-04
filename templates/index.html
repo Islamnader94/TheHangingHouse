@@ -1,0 +1,408 @@
+<!DOCTYPE HTML>
+<!--
+	Broadcast by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Broadcast by TEMPLATED</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="{{ url_for('static',  filename='css/main.css') }}"/>
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<h1><a href="#">The <span>HangingHouse</span></a></h1>
+				<a href="#menu">Menu</a>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="{{ url_for('index') }}">Home</a></li>
+					<li><a href="{{ url_for('generic') }}">Generic</a></li>
+				</ul>
+			</nav>
+
+			<!-- Banner -->
+			<!--
+				To use a video as your background, set data-video to the name of your video without
+				its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
+				formats to work correctly.
+			-->
+				<section id="banner">
+					<video autoplay muted loop id="myVideo">
+						<source src="static/images/banner.mp4" type="video/mp4">
+						Your browser does not support HTML5 video.
+					  </video>
+					  <div class="inner">
+						<header>
+							<h1>This is Broadcast</h1>
+							<p>Some random data to fill the gaps<br />
+							extra random data</p>
+						</header>
+						<a href="#main" class="button big alt scrolly">button</a>
+					  </div>
+				</section>
+
+		<!-- Main -->
+			<div id="main">
+
+			<!-- One -->
+				<section class="wrapper style1">
+					<div class="inner">
+						<header class="align-center">
+							<h2>this is random text</h2>
+							<p>Again some random text</p>
+						</header>
+						<!-- 2 Column Video Section -->
+							<div class="flex flex-2">
+								<div class="video col">
+									<div class="image fit">
+										<img src="static/images/pic07.jpg" alt="" />
+										<div class="arrow">
+											<div class="icon fa-play"></div>
+										</div>
+									</div>
+									<p class="caption">
+										Coding is fun
+									</p>
+									<a href="{{ url_for('generic') }}" class="link"><span>Click Me</span></a>
+								</div>
+								<div class="video col">
+									<div class="image fit">
+										<img src="static/images/pic08.jpg" alt="" />
+										<div class="arrow">
+											<div class="icon fa-play"></div>
+										</div>
+									</div>
+									<p class="caption">
+										we can add any text in here
+									</p>
+									<a href="{{ url_for('generic') }}" class="link"><span>Click Me</span></a>
+								</div>
+							</div>
+					</div>
+				</section>
+
+			<!-- Two -->
+				<section class="wrapper style2">
+					<div class="inner">
+						<header>
+							<h2>Random text in here</h2>
+							<p>lets fill the gaps</p>
+						</header>
+						<!-- Tabbed Video Section -->
+							<div class="flex flex-tabs">
+								<ul class="tab-list">
+									<li><a href="#" data-tab="tab-1" class="active">random text</a></li>
+									<li><a href="#" data-tab="tab-2">another random text</a></li>
+									<li><a href="#" data-tab="tab-3">this is for HangingHouse</a></li>
+								</ul>
+								<div class="tabs">
+
+									<!-- Tab 1 -->
+										<div class="tab tab-1 flex flex-3 active">
+											<!-- Video Thumbnail -->
+												<div class="video col">
+													<div class="image fit">
+														<img src="static/images/pic01.jpg" alt="" />
+														<div class="arrow">
+															<div class="icon fa-play"></div>
+														</div>
+													</div>
+													<a href="{{ url_for('generic') }}" class="link"><span>Click Me</span></a>
+												</div>
+											<!-- Video Thumbnail -->
+												<div class="video col">
+													<div class="image fit">
+														<img src="static/images/pic02.jpg" alt="" />
+														<div class="arrow">
+															<div class="icon fa-play"></div>
+														</div>
+													</div>
+													<a href="{{ url_for('generic') }}" class="link"><span>Click Me</span></a>
+												</div>
+											<!-- Video Thumbnail -->
+												<div class="video col">
+													<div class="image fit">
+														<img src="static/images/pic03.jpg" alt="" />
+														<div class="arrow">
+															<div class="icon fa-play"></div>
+														</div>
+													</div>
+													<a href="{{ url_for('generic') }}" class="link"><span>Click Me</span></a>
+												</div>
+											<!-- Video Thumbnail -->
+												<div class="video col">
+													<div class="image fit">
+														<img src="static/images/pic04.jpg" alt="" />
+														<div class="arrow">
+															<div class="icon fa-play"></div>
+														</div>
+													</div>
+													<a href="{{ url_for('generic') }}" class="link"><span>Click Me</span></a>
+												</div>
+											<!-- Video Thumbnail -->
+												<div class="video col">
+													<div class="image fit">
+														<img src="static/images/pic05.jpg" alt="" />
+														<div class="arrow">
+															<div class="icon fa-play"></div>
+														</div>
+													</div>
+													<a href="{{ url_for('generic') }}" class="link"><span>Click Me</span></a>
+												</div>
+											<!-- Video Thumbnail -->
+												<div class="video col">
+													<div class="image fit">
+														<img src="static/images/pic06.jpg" alt="" />
+														<div class="arrow">
+															<div class="icon fa-play"></div>
+														</div>
+													</div>
+													<a href="{{ url_for('generic') }}" class="link"><span>Click Me</span></a>
+												</div>
+										</div>
+
+									<!-- Tab 2 -->
+										<div class="tab tab-2 flex flex-3">
+											<!-- Video Thumbnail -->
+												<div class="video col">
+													<div class="image fit">
+														<img src="static/images/pic06.jpg" alt="" />
+														<div class="arrow">
+															<div class="icon fa-play"></div>
+														</div>
+													</div>
+													<a href="{{ url_for('generic') }}" class="link"><span>Click Me</span></a>
+												</div>
+											<!-- Video Thumbnail -->
+												<div class="video col">
+													<div class="image fit">
+														<img src="static/images/pic05.jpg" alt="" />
+														<div class="arrow">
+															<div class="icon fa-play"></div>
+														</div>
+													</div>
+													<a href="{{ url_for('generic') }}" class="link"><span>Click Me</span></a>
+												</div>
+											<!-- Video Thumbnail -->
+												<div class="video col">
+													<div class="image fit">
+														<img src="static/images/pic04.jpg" alt="" />
+														<div class="arrow">
+															<div class="icon fa-play"></div>
+														</div>
+													</div>
+													<a href="{{ url_for('generic') }}" class="link"><span>Click Me</span></a>
+												</div>
+											<!-- Video Thumbnail -->
+												<div class="video col">
+													<div class="image fit">
+														<img src="static/images/pic03.jpg" alt="" />
+														<div class="arrow">
+															<div class="icon fa-play"></div>
+														</div>
+													</div>
+													<a href="{{ url_for('generic') }}" class="link"><span>Click Me</span></a>
+												</div>
+											<!-- Video Thumbnail -->
+												<div class="video col">
+													<div class="image fit">
+														<img src="static/images/pic02.jpg" alt="" />
+														<div class="arrow">
+															<div class="icon fa-play"></div>
+														</div>
+													</div>
+													<a href="{{ url_for('generic') }}" class="link"><span>Click Me</span></a>
+												</div>
+											<!-- Video Thumbnail -->
+												<div class="video col">
+													<div class="image fit">
+														<img src="static/images/pic01.jpg" alt="" />
+														<div class="arrow">
+															<div class="icon fa-play"></div>
+														</div>
+													</div>
+													<a href="{{ url_for('generic') }}" class="link"><span>Click Me</span></a>
+												</div>
+										</div>
+
+									<!-- Tab 3 -->
+										<div class="tab tab-3 flex flex-3">
+											<!-- Video Thumbnail -->
+												<div class="video col">
+													<div class="image fit">
+														<img src="static/images/pic03.jpg" alt="" />
+														<div class="arrow">
+															<div class="icon fa-play"></div>
+														</div>
+													</div>
+													<a href="{{ url_for('generic') }}" class="link"><span>Click Me</span></a>
+												</div>
+											<!-- Video Thumbnail -->
+												<div class="video col">
+													<div class="image fit">
+														<img src="static/images/pic02.jpg" alt="" />
+														<div class="arrow">
+															<div class="icon fa-play"></div>
+														</div>
+													</div>
+													<a href="{{ url_for('generic') }}" class="link"><span>Click Me</span></a>
+												</div>
+											<!-- Video Thumbnail -->
+												<div class="video col">
+													<div class="image fit">
+														<img src="static/images/pic01.jpg" alt="" />
+														<div class="arrow">
+															<div class="icon fa-play"></div>
+														</div>
+													</div>
+													<a href="{{ url_for('generic') }}" class="link"><span>Click Me</span></a>
+												</div>
+											<!-- Video Thumbnail -->
+												<div class="video col">
+													<div class="image fit">
+														<img src="static/images/pic06.jpg" alt="" />
+														<div class="arrow">
+															<div class="icon fa-play"></div>
+														</div>
+													</div>
+													<a href="{{ url_for('generic') }}" class="link"><span>Click Me</span></a>
+												</div>
+											<!-- Video Thumbnail -->
+												<div class="video col">
+													<div class="image fit">
+														<img src="static/images/pic05.jpg" alt="" />
+														<div class="arrow">
+															<div class="icon fa-play"></div>
+														</div>
+													</div>
+													<a href="{{ url_for('generic') }}" class="link"><span>Click Me</span></a>
+												</div>
+											<!-- Video Thumbnail -->
+												<div class="video col">
+													<div class="image fit">
+														<img src="static/images/pic04.jpg" alt="" />
+														<div class="arrow">
+															<div class="icon fa-play"></div>
+														</div>
+													</div>
+													<a href="{{ url_for('generic') }}" class="link"><span>Click Me</span></a>
+												</div>
+										</div>
+
+								</div>
+							</div>
+					</div>
+				</section>
+
+			<!-- Three -->
+				<section class="wrapper ">
+					<div class="inner">
+						<header class="align-center">
+							<h2>Lets fill the gaps</h2>
+							<p>This is for testing purpose.</p>
+						</header>
+
+						<!-- 3 Column Video Section -->
+							<div class="flex flex-3">
+								<div class="video col">
+									<div class="image fit">
+										<img src="static/images/pic09.jpg" alt="" />
+										<div class="arrow">
+											<div class="icon fa-play"></div>
+										</div>
+									</div>
+									<p class="caption">
+										text to fill the gaps
+									</p>
+									<a href="{{ url_for('generic') }}" class="link"><span>Click Me</span></a>
+								</div>
+								<div class="video col">
+									<div class="image fit">
+										<img src="static/images/pic10.jpg" alt="" />
+										<div class="arrow">
+											<div class="icon fa-play"></div>
+										</div>
+									</div>
+									<p class="caption">
+										Text to fill the gaps
+									</p>
+									<a href="{{ url_for('generic') }}" class="link"><span>Click Me</span></a>
+								</div>
+								<div class="video col">
+									<div class="image fit">
+										<img src="static/images/pic11.jpg" alt="" />
+										<div class="arrow">
+											<div class="icon fa-play"></div>
+										</div>
+									</div>
+									<p class="caption">
+										This is some random text
+									</p>
+									<a href="{{ url_for('generic') }}" class="link"><span>Click Me</span></a>
+								</div>
+							</div>
+					</div>
+				</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div class="flex flex-3">
+						<div class="col">
+							<h3>Title 1</h3>
+							<ul class="alt">
+								<li><a href="#">Randome text</a></li>
+								<li><a href="#">Randome text</a></li>
+								<li><a href="#">Randome text</a></li>
+								<li><a href="#">Randome text</a></li>
+							</ul>
+						</div>
+						<div class="col">
+							<h3>Title 2</h3>
+							<ul class="alt">
+								<li><a href="#">Randome text</a></li>
+								<li><a href="#">Randome text</a></li>
+								<li><a href="#">Randome text</a></li>
+								<li><a href="#">Randome text</a></li>
+							</ul>
+						</div>
+						<div class="col">
+							<h3>Title</h3>
+							<ul class="alt">
+								<li><a href="#">Randome text</a></li>
+								<li><a href="#">Randome text</a></li>
+								<li><a href="#">Randome text</a></li>
+								<li><a href="#">Randome text</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="copyright">
+					<ul class="icons">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-snapchat"><span class="label">Snapchat</span></a></li>
+					</ul>
+					&copy; Islam's Business 
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="/static/js/jquery.min.js" charset="utf-8"></script>
+			<script src="/static/js/skel.min.js" charset="utf-8"></script>
+			<script src="/static/js/main.js" charset="utf-8"></script>
+			<script src="/static/js/util.js" charset="utf-8"></script>
+			<script src="/static/js/jquery.scrolly.min.js" charset="utf-8"></script>
+
+	</body>
+</html>
